@@ -1,5 +1,5 @@
 import pytest
-from processor.invoice.utils import is_valid_date
+from utils.date_utils import is_valid_date
 
 @pytest.mark.parametrize("valid_date", [
     "2024-01-01",

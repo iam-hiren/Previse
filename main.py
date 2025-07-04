@@ -24,7 +24,7 @@ from contextlib import redirect_stdout, redirect_stderr
 # Local application imports
 import config.logging_config as logging_config
 from processor.invoice.executor import InvoiceExecutor
-from processor.invoice.utils import is_valid_date
+from utils.date_utils import is_valid_date
 
 # Configure logger for this module
 logger = logging.getLogger(__name__)
